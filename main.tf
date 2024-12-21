@@ -68,7 +68,7 @@ variable "object_id" {
   type        = string
 }
 
-# outputs.tf
+# outputs.tf file
 output "key_vault_id" {
   description = "The ID of the Azure Key Vault."
   value       = azurerm_key_vault.example.id
