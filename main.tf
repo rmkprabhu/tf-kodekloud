@@ -77,3 +77,5 @@ output "key_vault_id" {
 output "key_vault_uri" {
   description = "The URI of the Azure Key Vault."
   value       = azurerm_key_vault.example.vault_uri
+}
+  
